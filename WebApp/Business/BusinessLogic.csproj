@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -6,6 +6,10 @@
 
   <ItemGroup>
     <Compile Remove="QRSServiceConfig.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Analyzers" Version="5.0.5" />
   </ItemGroup>
 
   <ItemGroup>
