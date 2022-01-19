@@ -5,7 +5,7 @@ using Model.Models;
 
 namespace DAL.Service
 {
-    public class HomeDALService
+    public class HomeDALService : IHomeDALService
     {
         private readonly IHomeDALService _homeDALService;
 
